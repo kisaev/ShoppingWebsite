@@ -1,0 +1,20 @@
+{
+  "11591" : {
+    "name" : "Phones" ,
+    "cost" : 12,
+    "description" : "Very good quality" ,
+    "image" : "img/phone.png"
+  },
+  "11592" : {
+    "name" : "Headphones" ,
+    "cost" : 24,
+    "description" : "brand new" ,
+    "image" : "img/headphone.png"
+  },
+  "11593" : {
+    "name" : "Speaker" ,
+    "cost" : 59,
+    "description" : "Very good quality" ,
+    "image" : "img/speaker.png"
+  }
+}
