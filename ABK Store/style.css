@@ -101,3 +101,8 @@ a {
     background-color: #FFC107;
     border-color: #FF9800;
 }
+
+.pagination>li>a, .pagination>li>span {
+	color: #fda119;
+}
+
