@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 14, 2018 at 03:52 AM
+-- Generation Time: Nov 14, 2018 at 09:47 PM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 7.2.10
 
@@ -68,7 +68,8 @@ INSERT INTO `cart` (`id`, `p_id`, `ip_add`, `user_id`, `qty`) VALUES
 (3, 1, '::1', 3, 5),
 (4, 8, '127.0.0.1', 3, 1),
 (5, 4, '::1', 3, 1),
-(6, 2, '::1', 3, 1);
+(6, 2, '::1', 3, 1),
+(7, 17, '::1', 4, 1);
 
 -- --------------------------------------------------------
 
@@ -139,43 +140,43 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`product_id`, `product_cat`, `product_brand`, `product_title`, `product_price`, `product_desc`, `product_image`, `product_keywords`) VALUES
-(1, 1, 2, 'Samsung Dous 2', 5000, 'Samsung Dous 2 sgh ', 'samsung mobile.jpg', 'samsung mobile electronics'),
-(2, 1, 3, 'iPhone 5s', 25000, 'iphone 5s', 'iphone mobile.jpg', 'mobile iphone apple'),
-(3, 1, 3, 'iPad', 30000, 'ipad apple brand', 'ipad.jpg', 'apple ipad tablet'),
-(4, 1, 3, 'iPhone 6s', 32000, 'Apple iPhone ', 'iphone.jpg', 'iphone apple mobile'),
-(5, 1, 2, 'iPad 2', 10000, 'samsung ipad', 'ipad 2.jpg', 'ipad tablet samsung'),
-(6, 1, 1, 'Hp Laptop r series', 35000, 'Hp Red and Black combination Laptop', 'k2-_ed8b8f8d-e696-4a96-8ce9-d78246f10ed1.v1.jpg-bc204bdaebb10e709a997a8bb4518156dfa6e3ed-optim-450x450.jpg', 'hp laptop '),
-(7, 1, 1, 'Laptop Pavillion', 50000, 'Laptop Hp Pavillion', '12039452_525963140912391_6353341236808813360_n.png', 'Laptop Hp Pavillion'),
-(8, 1, 4, 'Sony', 40000, 'Sony Mobile', 'sony mobile.jpg', 'sony mobile'),
-(9, 1, 3, 'iPhone New', 12000, 'iphone', 'white iphone.png', 'iphone apple mobile'),
-(10, 2, 6, 'Red Ladies dress', 1000, 'red dress for girls', 'red dress.jpg', 'red dress '),
-(11, 2, 6, 'Blue Heave dress', 1200, 'Blue dress', 'images.jpg', 'blue dress cloths'),
-(12, 2, 6, 'Ladies Casual Cloths', 1500, 'ladies casual summer two colors pleted', '7475-ladies-casual-dresses-summer-two-colors-pleated.jpg', 'girl dress cloths casual'),
-(13, 2, 6, 'SpringAutumnDress', 1200, 'girls dress', 'Spring-Autumn-Winter-Young-Ladies-Casual-Wool-Dress-Women-s-One-Piece-Dresse-Dating-Clothes-Medium.jpg_640x640.jpg', 'girl dress'),
-(14, 2, 6, 'Casual Dress', 1400, 'girl dress', 'download.jpg', 'ladies cloths girl'),
-(15, 2, 6, 'Formal Look', 1500, 'girl dress', 'shutterstock_203611819.jpg', 'ladies wears dress girl'),
-(16, 3, 6, 'Sweter for men', 600, '2012-Winter-Sweater-for-Men-for-better-outlook', '2012-Winter-Sweater-for-Men-for-better-outlook.jpg', 'black sweter cloth winter'),
-(17, 3, 6, 'Gents formal', 1000, 'gents formal look', 'gents-formal-250x250.jpg', 'gents wear cloths'),
-(19, 3, 6, 'Formal Coat', 3000, 'ad', 'images (1).jpg', 'coat blazer gents'),
-(20, 3, 6, 'Mens Sweeter', 1600, 'jg', 'Winter-fashion-men-burst-sweater.png', 'sweeter gents '),
-(21, 3, 6, 'T shirt', 800, 'ssds', 'IN-Mens-Apparel-Voodoo-Tiles-09._V333872612_.jpg', 'formal t shirt black'),
-(22, 4, 6, 'Yellow T shirt ', 1300, 'yello t shirt with pant', '1.0x0.jpg', 'kids yellow t shirt'),
-(23, 4, 6, 'Girls cloths', 1900, 'sadsf', 'GirlsClothing_Widgets.jpg', 'formal kids wear dress'),
-(24, 4, 6, 'Blue T shirt', 700, 'g', 'images.jpg', 'kids dress'),
-(25, 4, 6, 'Yellow girls dress', 750, 'as', 'images (3).jpg', 'yellow kids dress'),
-(26, 4, 6, 'Skyblue dress', 650, 'nbk', 'kids-wear-121.jpg', 'skyblue kids dress'),
-(27, 4, 6, 'Formal look', 690, 'sd', 'image28.jpg', 'formal kids dress'),
-(32, 5, 0, 'Book Shelf', 2500, 'book shelf', 'furniture-book-shelf-250x250.jpg', 'book shelf furniture'),
-(33, 6, 2, 'Refrigerator', 35000, 'Refrigerator', 'CT_WM_BTS-BTC-AppliancesHome_20150723.jpg', 'refrigerator samsung'),
-(34, 6, 4, 'Emergency Light', 1000, 'Emergency Light', 'emergency light.JPG', 'emergency light'),
-(35, 6, 0, 'Vaccum Cleaner', 6000, 'Vaccum Cleaner', 'images (2).jpg', 'Vaccum Cleaner'),
-(36, 6, 5, 'Iron', 1500, 'gj', 'iron.JPG', 'iron'),
-(37, 6, 5, 'LED TV', 20000, 'LED TV', 'images (4).jpg', 'led tv lg'),
-(38, 6, 4, 'Microwave Oven', 3500, 'Microwave Oven', 'images.jpg', 'Microwave Oven'),
-(39, 6, 5, 'Mixer Grinder', 2500, 'Mixer Grinder', 'singer-mixer-grinder-mg-46-medium_4bfa018096c25dec7ba0af40662856ef.jpg', 'Mixer Grinder'),
-(40, 2, 6, 'Formal girls dress', 3000, 'Formal girls dress', 'girl-walking.jpg', 'ladies'),
-(45, 1, 2, 'Samsung Galaxy Note 3', 10000, '0', 'samsung_galaxy_note3_note3neo.JPG', 'samsung galaxy Note 3 neo'),
-(46, 1, 2, 'Samsung Galaxy Note 3', 10000, '', 'samsung_galaxy_note3_note3neo.JPG', 'samsung galxaxy note 3 neo');
+(1, 1, 2, 'Samsung Galaxy Duos', 499, 'Samsung Galaxy Dous 2 sgh ', 'galaxyduos.jpg', 'samsung mobile electronics'),
+(2, 1, 3, 'iPhone X', 1899, 'iphone X', 'iphonex.jpg', 'mobile iphone apple'),
+(3, 1, 3, 'iPad Pro', 959, 'ipad apple brand', 'ipadpro.jpg', 'apple ipad tablet'),
+(4, 1, 3, 'iPhone 6s', 749, 'Apple iPhone 6s', 'iphone6s.jpg', 'iphone apple mobile'),
+(5, 1, 2, 'iPad 2', 899, 'samsung ipad', 'ipad2.jpg', 'ipad tablet samsung'),
+(6, 1, 1, 'Hp Laptop r series', 1299, 'Hp Laptop', 'hplaptop.jpg', 'hp laptop '),
+(7, 1, 1, 'Laptop Pavillion', 1199, 'Laptop Hp convert', 'hppavillion.jpg', 'Laptop Hp Pavillion'),
+(8, 1, 4, 'OnePlus 6T', 879, 'One Plus 6T', 'oneplus.jpg', 'One Plus T 6T'),
+(9, 1, 3, 'iPhone 7', 699, 'iphone', 'whiteiphone.jpg', 'iphone apple mobile'),
+(10, 2, 6, 'Red Women Dress', 250, 'red dress for women', 'reddress.jpg', 'red dress '),
+(11, 2, 6, 'Blue Hoodie', 59, 'Blue hoodie', 'bluehoodie.jpg', 'blue dress cloths'),
+(12, 2, 6, 'Ladies Casual Cloths', 150, 'ladies casual summer two colors pleted', 'ladydress.jpg', 'girl dress cloths casual'),
+(13, 2, 6, 'SpringAutumnDress', 350, 'girls dress', 'autumn.jpg', 'girl dress'),
+(14, 2, 6, 'Casual Dress', 250, 'girl dress', 'casualdress.jpg', 'ladies cloths girl'),
+(15, 2, 6, 'Formal Look', 140, 'girl dress', 'formallook.jpg', 'ladies wears dress girl'),
+(16, 3, 6, 'Sweater for men', 600, 'Sweater men', 'mensweater.jpg', 'black sweter cloth winter'),
+(17, 3, 6, 'Gents formal', 1200, 'gents formal look', 'gentsformal.jpg', 'gents wear cloths'),
+(19, 3, 6, 'Winter Coat', 1600, 'Coat', 'coat.jpg', 'coat blazer gents'),
+(20, 3, 6, 'Mens Bomber', 550, 'bomber', 'bomber.jpg', 'sweeter gents '),
+(21, 3, 6, 'Mens Shirt', 50, 'Mens Shirt Green', 'menshirt.jpg', 'formal t shirt black'),
+(22, 4, 6, 'Yellow T shirt ', 99, 'yellow shirt', 'yellowshirt.jpg', 'kids yellow t shirt'),
+(23, 4, 6, 'Girls Blue Red Dress', 540, 'Girls blue Red dress', 'girlsdress.jpg', 'formal kids wear dress blue red'),
+(24, 4, 6, 'Red Shirt', 399, 'Red Shirt Men', 'redshirt.jpg', 'Red Shirt Men'),
+(25, 4, 6, 'Monkey Sweater', 249, 'Monkey Sweater', 'monkey.jpg', 'yellow kids dress'),
+(26, 4, 6, 'Blue Dress', 650, 'blue dress', 'bluedress.jpg', 'blue dress'),
+(27, 4, 6, 'Classic Suit Kids', 690, 'Kids Suit', 'kidssuit.jpg', 'formal kids dress'),
+(32, 5, 0, 'Book Shelf', 250, 'book shelf', 'bookshelf.jpg', 'book shelf furniture'),
+(33, 6, 2, 'Refrigerator', 1399, 'Refrigerator', 'refigerator.png', 'refrigerator samsung'),
+(34, 6, 4, 'Emergency Light', 799, 'Emergency Light', 'erlight.jpg', 'emergency light'),
+(35, 6, 0, 'Vaccum Cleaner', 800, 'Vaccum Cleaner', 'vacuum.jpg', 'Vaccum Cleaner'),
+(36, 6, 5, 'Iron', 399, 'Iron', 'iron.jpg', 'iron'),
+(37, 6, 5, 'LED TV', 1599, 'LED TV', 'tv.jpg', 'led tv lg'),
+(38, 6, 4, 'Microwave Oven', 3500, 'Microwave Oven', 'micro.jpg', 'Microwave Oven'),
+(39, 6, 5, 'Mixer Grinder', 2500, 'Mixer Grinder', 'mixer.jpg', 'Mixer Grinder'),
+(40, 2, 6, 'Classic Women', 360, 'Womens classic outfit', 'casualwomen.jpg', 'ladies'),
+(45, 1, 2, 'Samsung Galaxy Note 8', 950, 'Galaxy Note 8', 'note8.png', 'galaxy note 8'),
+(46, 1, 2, 'Samsung Galaxy A6', 899, 'Galaxy A6', 'a6.png', 'Galaxy A 6');
 
 -- --------------------------------------------------------
 
@@ -199,7 +200,8 @@ CREATE TABLE `user_info` (
 --
 
 INSERT INTO `user_info` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
-(3, 'Bekbolsun', 'Bektenov', 'b@bb.com', '645485082bba2c9cb791aeed59eb3894', '8322287571', '2418 S Voss Rd, Houston, TX 77057', 'apt L211');
+(1, 'Bekbolsun', 'Bektenov', 'b@bb.com', '645485082bba2c9cb791aeed59eb3894', '8322287571', '2418 S Voss Rd, Houston, TX 77057', 'apt L211'),
+(2, 'Kalysbek', 'Isaev', 'isaev@na.edu', 'e2ec9f889068b3c3c33bd8709cc1ac8e', '8325655482', 'askd Street', 'sad');
 
 --
 -- Indexes for dumped tables
@@ -255,7 +257,7 @@ ALTER TABLE `brands`
 -- AUTO_INCREMENT for table `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `categories`
@@ -279,7 +281,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `user_info`
 --
 ALTER TABLE `user_info`
-  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
