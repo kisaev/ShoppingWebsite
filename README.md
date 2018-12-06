@@ -11,5 +11,6 @@ In this website people can buy an item or items, there are many features such as
               - checkout through the paypal
               - categories of items such as electronics, dresses, clothings
               - brands such as HP, samsung and etc
+              - Easy purchase of an item
 
 
